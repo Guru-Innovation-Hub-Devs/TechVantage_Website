@@ -1,4 +1,4 @@
-/* Tablet Responsive Styles */
+/* NavBar */
 @media (min-width: 769px) and (max-width: 1024px) {
     .navbar {
         padding: 10px 20px;
@@ -33,5 +33,34 @@
 
     .hamburger {
         display: none;
+    }
+}
+
+/* Hero and Next Section */
+/* Tablet Responsive Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.125rem;
+    }
+
+    .next-section-content {
+        flex-direction: column;
+    }
+
+    .next-section .community-image,
+    .next-section-text {
+        width: 100%;
+    }
+
+    .next-section h2 {
+        font-size: 1.75rem;
+    }
+
+    .next-section p {
+        font-size: 1.125rem;
     }
 }
