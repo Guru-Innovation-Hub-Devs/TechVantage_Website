@@ -8,6 +8,10 @@
     font-variation-settings:  "slnt" 0;
 }
 
+body {
+    line-height: 1.6;
+}
+
 /* Nav Bar */
 .navbar {
     display: flex;
@@ -72,5 +76,95 @@
 }
 
 .contact-button:hover {
+    background-color: #005bb5;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('/img/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #005bb5;
+}
+
+/* Next Section */
+.next-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.next-section-content {
+    display: flex;
+    max-width: 1200px;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.next-section .community-image {
+    width: 50%;
+    object-fit: cover;
+}
+
+.next-section-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.next-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.next-section p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.next-section .btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.next-section .btn:hover {
     background-color: #005bb5;
 }
