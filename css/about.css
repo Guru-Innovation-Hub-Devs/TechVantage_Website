@@ -8,72 +8,6 @@
     font-variation-settings:  "slnt" 0;
 }
 
-/* Nav Bar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background: linear-gradient(to right, #ffffff, #c3d5e8);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    box-sizing: border-box;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.logo img {
-    height: inherit;
-    width: 150px;
-    padding-top: 5px;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
-    padding-right: 150px;
-}
-
-.nav-links li {
-    display: inline;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 16px;
-    transition: color 0.3s ease; 
-    font-weight: bold;
-}
-
-.nav-links a:hover {
-    color: #0073e6; 
-}
-
-
-.contact-button {
-    background-color: #0073e6;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    white-space: nowrap;
-    transition: background-color 0.3s ease; 
-}
-
-.contact-button:hover {
-    background-color: #005bb5;
-}
 /* THIS IS ABOUT US PAGE STYLING */
 .AboutUs{
     background-color: #ffffff;
@@ -97,15 +31,14 @@
     align-items: center;
     gap: 3rem;
 }
-.AboutUs .Section_One h1{
-    font-size: 3rem;
-    color: rgb(23, 23, 110);
-}
+
 
 .AboutUs .Section_One p{
     width: 70%;
 
-} .Section_Two{
+} 
+
+.Section_Two{
     display: flex;
     flex-direction: row;
     justify-content: center;
