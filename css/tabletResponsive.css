@@ -1,0 +1,37 @@
+/* Tablet Responsive Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        position: static;
+        box-shadow: none;
+        background-color: transparent;
+        padding-right: 0px;
+    }
+
+    .logo img {
+        padding-top: 15px;
+    }
+
+    .nav-links li {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .contact-button {
+        display: inline-block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
