@@ -14,8 +14,10 @@ body {
 
 h1 {
     font-size: 3rem;
-    padding-top: 100px;
+    padding: 20px;
+    padding-top: 50px;
     color: #0073e6;
+    text-align: center;
 }
 
 /* Nav Bar */
